@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<teme>
+      <tema deadlineWeek="12" descriere="MAP" id="1" startWeek="8"/>
+      <tema deadlineWeek="11" descriere="ascc" id="2" startWeek="7"/>
+      <tema deadlineWeek="13" descriere="Lab1" id="3" startWeek="12"/>
+      <tema deadlineWeek="13" descriere="Lab2" id="4" startWeek="12"/>
+      <tema deadlineWeek="13" descriere="Lab3" id="5" startWeek="12"/>
+      <tema deadlineWeek="13" descriere="Lab7" id="7" startWeek="12"/>
+      <tema deadlineWeek="13" descriere="Lab99" id="9" startWeek="12"/>
+      <tema deadlineWeek="12" descriere="Lab4" id="10" startWeek="9"/>
+      <tema deadlineWeek="12" descriere="Lab5" id="11" startWeek="9"/>
+      <tema deadlineWeek="11" descriere="Lab8" id="14" startWeek="9"/>
+</teme>

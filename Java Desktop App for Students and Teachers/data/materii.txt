@@ -1,0 +1,4 @@
+map sem1
+plf sem1
+BD sem1
+probabilitati sem1

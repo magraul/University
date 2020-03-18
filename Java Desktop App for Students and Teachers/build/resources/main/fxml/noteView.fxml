@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="532.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.FXMLControllerNote">
+    <children>
+        <TabPane prefHeight="532.0" prefWidth="190.0" tabClosingPolicy="UNAVAILABLE" />
+        <SplitPane dividerPositions="0.20045558086560364" prefHeight="532.0" prefWidth="880.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="95.0">
+                    <children>
+                        <Button defaultButton="true" layoutY="111.0" mnemonicParsing="false" opacity="0.8" prefHeight="90.0" prefWidth="175.0" text="Note">
+                            <font>
+                                <Font size="28.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="butonTeme" layoutY="21.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="175.0" text="Teme" textAlignment="CENTER">
+                            <font>
+                                <Font size="25.0" />
+                            </font>
+                        </Button>
+                  <Button fx:id="butonRapoarte" layoutX="-1.0" layoutY="201.0" mnemonicParsing="false" opacity="0.73" prefHeight="90.0" prefWidth="175.0" text="Rapoarte">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="439.0" prefWidth="418.0">
+                    <children>
+                  <Label fx:id="titluNumarSaptamani" layoutX="5.0" layoutY="290.0" prefHeight="26.0" prefWidth="162.0" text="Numar saptamani motivate">
+                     <font>
+                        <Font size="13.0" />
+                     </font></Label>
+                  <ComboBox fx:id="comboBoxNrSaptamaniMotivate" layoutX="165.0" layoutY="286.0" prefHeight="34.0" prefWidth="42.0" visibleRowCount="7" />
+                        <TextField fx:id="textFieldFeedback" layoutX="69.0" layoutY="248.0" prefHeight="34.0" prefWidth="162.0" />
+                        <TextField fx:id="textFieldNota" layoutX="69.0" layoutY="213.0" prefHeight="34.0" prefWidth="51.0" />
+                  <Label layoutX="421.0" layoutY="24.0" prefHeight="26.0" prefWidth="98.0" text="      Note" textAlignment="RIGHT">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                        <TableView fx:id="tabelNote" layoutX="421.0" layoutY="50.0" prefHeight="380.0" prefWidth="238.0">
+                            <columns>
+                                <TableColumn fx:id="coloanaStudent" prefWidth="117.60003662109375" text="Student" />
+                                <TableColumn fx:id="coloanaTema" text="Tema" />
+                                <TableColumn fx:id="coloanaNota" prefWidth="39.200048828125006" text="Nota" />
+                            </columns>
+                        </TableView>
+                  <Label layoutY="24.0" prefHeight="26.0" prefWidth="190.0" text="Student">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                        <TextField fx:id="textFieldCauta" layoutY="50.0" prefHeight="34.0" prefWidth="127.0" />
+                        <ComboBox fx:id="comboBox" layoutY="143.0" prefHeight="34.0" prefWidth="127.0" />
+                        <CheckBox fx:id="checkBox" alignment="TOP_LEFT" layoutX="10.0" layoutY="408.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="197.0" text="Modifica o nota selectata" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <Button fx:id="butonNoteCompl" layoutX="501.0" layoutY="441.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="190.0" text="Vezi notele in format complet" />
+                        <Label fx:id="titluNota" layoutY="213.0" prefHeight="34.0" prefWidth="82.0" text="Nota">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                        <Label fx:id="titluFedback" layoutY="252.0" prefHeight="26.0" prefWidth="82.0" text="Feedback">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                        <Button fx:id="urmator" layoutX="13.0" layoutY="441.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="162.0" text="Urmatorul pas" />
+                  <CheckBox fx:id="checkBoxAUitatProful" layoutX="13.0" layoutY="332.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="162.0" text="A intarziat profesorul">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <Label fx:id="titluTema" layoutX="1.0" layoutY="117.0" prefHeight="26.0" prefWidth="90.0" text="Tema">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="logatCaSi" layoutX="231.0" layoutY="41.0" prefHeight="18.0" prefWidth="190.0" textAlignment="CENTER" />
+                  <ComboBox fx:id="materii" layoutX="256.0" layoutY="71.0" prefWidth="150.0" promptText="MATERIA" />
+                  <Button fx:id="configurare" layoutX="256.0" layoutY="109.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="150.0" text="Configurare calcul nota finala" textAlignment="CENTER" wrapText="true" />
+                  <Button fx:id="catalog" layoutX="292.0" layoutY="441.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="98.0" text="Catalog">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+        <Button mnemonicParsing="false" style="-fx-highlight-text-fill: blue" text="Note" />
+        <MenuBar fx:id="menuBar" prefHeight="26.0" prefWidth="880.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            <Menu mnemonicParsing="false" text="Log out">
+              <items>
+                <MenuItem fx:id="logOut" mnemonicParsing="false" text="Log out" />
+              </items>
+            </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>

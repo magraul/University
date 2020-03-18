@@ -1,0 +1,12 @@
+map Lab 30
+map Practic 40
+map Scris 30
+plf Scris 50
+plf Practic 25
+plf Lab 25
+BD Scris 50
+BD Practic 50
+probabilitati Scris 50
+probabilitati Practic 50
+BD Lab 0
+probabilitati Lab 0

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<VBox spacing="8" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="512.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="me.FXMLController">
+    <HBox>
+        <HBox>
+            <Label fx:id="label1" text="Label"/>
+        </HBox>
+        <HBox>
+            <Label fx:id="label2" text="Label"/>
+        </HBox>
+    </HBox>
+    <HBox spacing="245">
+        <HBox>
+            <VBox spacing="7">
+                <Button fx:id="butonCreate" text="Create"/>
+                <Button fx:id="butonRead" text="Read"/>
+                <Button fx:id="butonUpdate" text="Update"/>
+                <Button fx:id="butonDelete" text="Delete"/>
+            </VBox>
+            <VBox>
+                <VBox>
+                    <GridPane fx:id="grid1">
+                        <padding>
+                            <Insets top="25" right="25" left="25" bottom="25"/>
+                        </padding>
+                        <Label text="Descrierea:  " GridPane.columnIndex="0" GridPane.rowIndex="1"
+                               textFill="aliceblue"/>
+                        <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="textDescriere"/>
+                    </GridPane>
+                </VBox>
+                <VBox spacing="27">
+                    <GridPane fx:id="grid2">
+                        <padding>
+                            <Insets top="15" right="15" left="25" bottom="25"/>
+                        </padding>
+                        <Label text="Deadline:    " GridPane.columnIndex="0" GridPane.rowIndex="1"
+                               textFill="aliceblue"/>
+                        <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="textDeadline"/>
+                    </GridPane>
+
+                    <GridPane fx:id="grid3">
+                        <padding>
+                            <Insets top="15" right="15" left="25" bottom="25"/>
+                        </padding>
+                        <Label text="Id:               " GridPane.columnIndex="0" GridPane.rowIndex="1"
+                               textFill="aliceblue"/>
+                        <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="textId"/>
+                    </GridPane>
+                </VBox>
+            </VBox>
+        </HBox>
+        <TableView fx:id="teme">
+            <columns>
+                <TableColumn text="id" prefWidth="24" fx:id="id"/>
+                <TableColumn text="descriere" fx:id="descriere"/>
+                <TableColumn text="start week" fx:id="startWeek"/>
+                <TableColumn text="deadline week" prefWidth="110" fx:id="deadlineWeek"/>
+
+            </columns>
+        </TableView>
+
+    </HBox>
+
+</VBox>

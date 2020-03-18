@@ -1,0 +1,10 @@
+.button {
+    -fx-pref-width: 160px;
+    -fx-pref-height: 100px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.root {
+    -fx-background-color: #383838;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<studenti>
+      <student email="maill" grupa="111" id="2" media="0.0" nume="Pop" prenume="Darius" profesor="proffesor"/>
+      <student email="mai" grupa="229" id="3" media="0.0" nume="Mocutiu" prenume="Robi" profesor="prof"/>
+      <student email="mail3" grupa="225" id="4" media="7.0" nume="nume3" prenume="prenume3" profesor="prof3"/>
+      <student email="mail4" grupa="226" id="5" media="6.0" nume="nume4" prenume="prenume4" profesor="prof4"/>
+      <student email="mail64" grupa="228" id="6" media="6.0" nume="nume64" prenume="prenume46" profesor="prof4"/>
+      <student email="mal" grupa="228" id="8" media="0.0" nume="Sabou" prenume="Paul" profesor="prof"/>
+      <student email="maill" grupa="299" id="9" media="0.0" nume="Sabou" prenume="Cristina" profesor="proffa"/>
+      <student email="mail" grupa="444" id="11" media="0.0" nume="nou" prenume="nou" profesor="prof"/>
+      <student email="maillll" grupa="9999" id="12" media="0.0" nume="nouuu" prenume="noul" profesor="profffff"/>
+</studenti>

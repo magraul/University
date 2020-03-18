@@ -1,0 +1,2 @@
+admin1 parola1
+admin2 parola2
