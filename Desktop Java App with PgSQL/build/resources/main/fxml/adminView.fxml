@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.FXMLControllerAdmin">
+   <children>
+      <Label layoutX="6.0" prefHeight="54.0" prefWidth="258.0" text="Inregistrare angajati in sistem">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="logOut" layoutX="520.0" layoutY="1.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="80.0" text="Log out" />
+      <TextField fx:id="angajat" layoutX="8.0" layoutY="106.0" />
+      <Label layoutX="14.0" layoutY="68.0" prefHeight="38.0" prefWidth="80.0" text="Angajat">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="159.0" prefHeight="38.0" prefWidth="121.0" text="User Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameAngajat" layoutX="8.0" layoutY="197.0" />
+      <Label layoutX="14.0" layoutY="241.0" prefHeight="38.0" prefWidth="98.0" text="Parola">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="parola" layoutX="8.0" layoutY="279.0" />
+      <Button fx:id="inregistrare" layoutX="28.0" layoutY="324.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="98.0" text="Inregistrare" />
+      <TableView fx:id="tabel" layoutX="253.0" layoutY="53.0" prefHeight="337.0" prefWidth="337.0">
+        <columns>
+          <TableColumn fx:id="nume" prefWidth="168.0" text="Angajat" />
+          <TableColumn fx:id="username" prefWidth="168.0" text="User Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
