@@ -1,0 +1,7 @@
+﻿  Dictionar.cpp
+  Iterator.cpp
+  TestScurt.cpp
+  main.cpp
+  Generating Code...
+c:\users\claudiu\desktop\temalab1\temalab1\dictionar.cpp(76): warning C4715: 'Dictionar::adauga': not all control paths return a value
+  temaLab1.vcxproj -> C:\Users\Claudiu\Desktop\temaLab1\Debug\temaLab1.exe

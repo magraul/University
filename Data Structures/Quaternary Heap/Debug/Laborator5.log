@@ -1,0 +1,6 @@
+﻿  Coada.cpp
+c:\users\raul\desktop\sda\laborator5\laborator5\coada.cpp(65): warning C4018: '<=': signed/unsigned mismatch
+c:\users\raul\desktop\sda\laborator5\laborator5\coada.cpp(70): warning C4018: '<=': signed/unsigned mismatch
+c:\users\raul\desktop\sda\laborator5\laborator5\coada.cpp(75): warning C4018: '<=': signed/unsigned mismatch
+c:\users\raul\desktop\sda\laborator5\laborator5\coada.cpp(108): warning C4018: '>': signed/unsigned mismatch
+  Laborator5.vcxproj -> C:\Users\Raul\Desktop\SDA\Laborator5\Debug\Laborator5.exe

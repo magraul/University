@@ -1,0 +1,21 @@
+[2019-05-09 15:04:47] [info] Start Program:
+Path:"C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\x64\Debug\temp_1_functionalitate.exe"
+Arguments:
+Working directory: "C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\temp_1_functionalitate\"
+Modules: Selected: C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\x64\Debug\temp_1_functionalitate.exe Excluded: 
+Sources: Selected: C:\Users\Raul\Desktop\sablon_gui\lab 10\Lab_6_7 C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\temp_1_functionalitate Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Raul\AppData\Local\Temp\pwaz4dxf.ovk 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-05-09 15:04:47] [info] Module: C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\x64\Debug\temp_1_functionalitate.exe is selected because it matches selected pattern: C:\Users\Raul\Desktop\sablon_gui\temp_1_functionalitate\x64\Debug\temp_1_functionalitate.exe
+[2019-05-09 15:04:55] [info] ----------------------------------------------------
+[2019-05-09 15:04:55] [info] Coverage binary generated in file: C:\Users\Raul\AppData\Local\Temp\pwaz4dxf.ovk
+[2019-05-09 15:04:55] [info] ----------------------------------------------------
